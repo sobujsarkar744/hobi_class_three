@@ -1,0 +1,449 @@
+/* ########################
+Template Name: HOBI || HTML Template;
+Authore: Md.Sobuj Sarkar;
+Version: 1.0.0;
+Created: 10 March 2021;
+File Description: Main CSS file of the template;
+################################################### */
+
+/* ########################
+01. General
+################################################### */ 
+
+/* ########################
+Typography
+################################################### */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Rufina:wght@400;700&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7797;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,
+h2,h3,
+h4,h5,h6{
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    color: #000a2d;
+    margin: 0;
+    padding: 0;   
+}
+h2{
+    font-size: 70px;
+}
+h4{
+    font-size: 20px;
+}
+p{  
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7797;
+    margin: 0; 
+    padding: 0;   
+}
+a{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7797;
+    text-decoration: none;    
+}
+/* ########################
+HEADER STYLE START HERE
+################################################### */
+header{
+    padding: 30px 0;
+    background-color: #fff;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.navigation-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    margin-left: 120px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu ul li a{
+    font-size:14px;
+    font-weight:500;
+    color:#000a2d;
+    text-transform:capitalize ;
+    padding: 20px 20px;
+}
+.menu ul li a:hover{
+    color:#ff3d4f;
+    border-bottom: 2px solid #ff3d4f;
+    transition: .2s ease;
+}
+.menu-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.downlode{
+    margin-right: 20px;
+}
+.downlode button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    height: 50px;
+    width: 170px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff3d4f;
+
+}
+.downlode button:focus{
+    outline: none;
+}
+.downlode button:hover{
+    background-color: #000a2d;
+}
+.humberger{
+    height: 50px;
+    width: 50px;
+    color: #ff3d4f;
+    line-height: 50px;
+    background-color:#ff3d4f21;
+    font-size: 14px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0px 0px 15px #ffc2c8;  
+}
+/* ########################
+BANNER STYLE START HERE
+################################################### */
+#banner{
+    background-image: url(../images/banneri.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 840px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.banner-content h4{
+    font-family: 'Rubik', sans-serif;
+    font-size:20px ;
+    line-height: 30px;
+    font-weight:400 ;
+    color: #ff3d4f;
+}
+.banner-content h2{
+    font-family: 'Rufina', serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #000a2d;
+    padding: 20px 0px 20px;
+}
+.banner-content p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6e7797;
+}
+.banner-button{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    align-items: center;
+}
+.video-button button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    height: 50px;
+    width: 170px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff3d4f;
+    text-transform: uppercase;
+}
+.video-button button:focus{
+    outline: none;
+}
+.video-button button:hover{
+    background-color: #000a2d;
+}
+.play-button {
+    height: 50px;
+    width: 50px;
+    color: #ff3d4f;
+    line-height: 50px;
+    background-color:#fff;
+    font-size: 14px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0px 0px 15px #ffc2c8;  
+    margin-left: -809px;
+
+}
+.play-button:focus{
+    outline: none;
+}
+.video-button-text button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ff3d4f;;
+    height: 50px;
+    width: 170px;
+    border: none;
+    border-radius: 50px;
+    background-color: transparent;
+    margin-left: -852px;
+    text-transform: uppercase;
+}
+.video-button-text button:focus{
+    outline: none;
+}
+/* ########################
+ABOUT STYLE START HERE
+################################################### */
+#about{
+    padding: 120px 0;
+    background-color: #ffffff;
+}
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-content{
+    width: 55%;
+}
+.about-button{
+    width: 45%;
+}
+.about-content h4{
+    font-family: 'Rubik', sans-serif;
+    font-size:14px ;
+    line-height: 24px;
+    font-weight:400 ;
+    color: #ff3d4f;
+}
+.about-content h2{
+    font-family: 'Rufina', serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #000a2d;
+    padding-top: 20px;
+}
+.about-content p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7797;
+}
+.about-button-wrapper{
+    padding-top: 30px ;
+}
+
+.about-button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.downlode-cv button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    height: 50px;
+    width: 170px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff3d4f;
+    text-transform: uppercase;
+}
+.downlode-cv button:hover{
+    background-color:#000a2d;
+}
+.downlode-cv button:focus{
+    outline: none;
+}
+.design-process button{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #79819e;
+    height: 50px;
+    width: 170px;
+    border: 3px solid #eaeeff;
+    border-radius: 50px;
+    background-color: #fff;
+    text-transform: uppercase;
+    margin-right: 117px;
+}
+.design-process button:focus{
+    outline: none;
+}
+.design-process button:hover{
+    background-color: #ff3d4f;
+    border: none;
+    color: #fff;
+}
+/* ########################
+SERVICE STYLE START HERE
+################################################### */
+#services-item{
+    padding: 120px 0px;
+    background-color: #fff;
+}
+.service-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-item .item-one{
+    width: 30%;
+    border: 5px solid #f7f8ff;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    mar
+}
+
+.service-item .item-two{
+    width: 30%;
+    border: 5px solid #f7f8ff;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px 15px;
+    
+}
+.service-item .item-three{
+    width: 30%;
+    border: 5px solid #f7f8ff;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.item-one .img{
+    width: 80px;
+    height: 80px;
+}
+.item-one h4{
+    font-size: 24px;
+    line-height:34px;
+    font-weight: 700;
+    color: #000a2d;
+    padding: 40px 0px 30px;
+}
+.item-one p{
+    font-size: 14px;
+    line-height:24px;
+    font-weight: 400;
+    color: #6e7797;
+}
+
+.list-icon ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-icon i{
+    font: 14px;
+    line-height: 30px;
+    color: #ff3d4f;
+    padding-right: 20px;
+}
+
+.item-two .img{
+    width: 80px;
+    height: 80px;
+}
+.item-two h4{
+    font-size: 24px;
+    line-height:34px;
+    font-weight: 700;
+    color: #000a2d;
+    padding: 40px 0px 30px;
+}
+.item-two p{
+    font-size: 14px;
+    line-height:24px;
+    font-weight: 400;
+    color: #6e7797;
+}
+
+.item-three .img{
+    width: 80px;
+    height: 80px;
+}
+.item-three h4{
+    font-size: 24px;
+    line-height:34px;
+    font-weight: 700;
+    color: #000a2d;
+    padding: 40px 0px 30px;
+}
+.item-three p{
+    font-size: 14px;
+    line-height:24px;
+    font-weight: 400;
+    color: #6e7797;
+}
+
+/* ########################
+SKILLS STYLE START HERE
+################################################### */
+#skills{
+ padding: 120px 0;
+ background-color: #f6f5ff;
+
+}
+.skill-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-content{
+    margin-left: 85px;
+}
+.skill-content h4{
+    font-size: 14px;
+    line-height:24px;
+    font-weight: 400;
+    color: #ff3d4f;
+
+}
+.skill-content h2{
+    font-size: 70px;
+    line-height:80px;
+    font-weight: 700;
+    color: #000a2d;
+    padding: 10px 0px;
+
+}
+.skill-content ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.skill-content ul li p{
+    padding: 23px 0px;
+}
